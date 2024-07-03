@@ -175,4 +175,4 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 
-An intercative version of colab notebook for pose estimation and angle calculation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([URL](https://colab.research.google.com/drive/1Q_7BwaDciIt0jn52GkcOlLqD8cq0uFFj?usp=sharing#scrollTo=rKNoQjs_OBy5))
+**An intercative version of colab notebook for pose estimation and angle calculation** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([URL](https://colab.research.google.com/drive/1Q_7BwaDciIt0jn52GkcOlLqD8cq0uFFj?usp=sharing#scrollTo=rKNoQjs_OBy5))
