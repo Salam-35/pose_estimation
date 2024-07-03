@@ -69,6 +69,7 @@ These models are the state of the art in pose estimation, providing robust solut
 # The iner-working of a pose estimation model
 **``MediaPipe Pose``** :
 
+
 In the domain of pose estimation Google's MediaPipe pose is one of the awesome model. although it works on two stage, it has different versions for full body pose estimation as well as Facial pose estimation. For full body estimation it draws 33 points over different joints. here is an image containing the 33 points. One thing to add here is to it predicts 3 dimensional points for each points.  
 ![alt text](image-1.png)
 
@@ -173,3 +174,5 @@ while cap.isOpened():
 cap.release()
 cv2.destroyAllWindows()
 ```
+
+An intercative version of colab notebook for pose estimation and angle calculation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([URL](https://colab.research.google.com/drive/1Q_7BwaDciIt0jn52GkcOlLqD8cq0uFFj?usp=sharing#scrollTo=rKNoQjs_OBy5))
