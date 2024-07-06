@@ -33,7 +33,7 @@ Pose estimation involves the detection and tracking of human body parts and thei
 
 ## OpenPose [GitHub](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 - **Description**: OpenPose is one of the first and most widely used pose estimation models. It can detect multi-person keypoints in real-time, covering body, foot, hand, and facial keypoints.
-- **License**: OpenPose is licensed under the Apache 2.0 License, allowing for commercial use.
+- **License**: **OpenPose is licensed under non-commercial research only**.
 - **Key Features**: Real-time multi-person detection, high accuracy, extensive documentation and community support.
 
 ## MediaPipe Pose [GitHub](https://github.com/google/mediapipe)
@@ -48,7 +48,7 @@ Pose estimation involves the detection and tracking of human body parts and thei
 
 ## DeepLabCut [GitHub](https://github.com/DeepLabCut/DeepLabCut)
 - **Description**: Initially developed for animal pose estimation, DeepLabCut has also been adapted for human pose estimation. It is based on transfer learning with deep neural networks.
-- **License**: DeepLabCut is licensed under the GNU General Public License v3.0 (GPL-3.0), which allows for commercial use under specific conditions.
+- **License**: DeepLabCut is licensed under the GNU General Public License v3.0 (GPL-3.0), which allows for commercial use under specific conditions. Copyright (C) 2007 Free Software Foundation, Inc. Everyone is permitted to copy and distribute verbatim copies  of this license document, but changing it is not allowed.
 - **Key Features**: High flexibility, strong performance in domain-specific applications, extensive customization options.
 
 ## PoseNet [GitHub](https://github.com/tensorflow/tfjs-models/tree/master/posenet)
@@ -58,13 +58,9 @@ Pose estimation involves the detection and tracking of human body parts and thei
 
 ## AlphaPose [GitHub](https://github.com/MVIG-SJTU/AlphaPose)
 - **Description**: AlphaPose aims to achieve high accuracy in human pose estimation and tracking. It uses a top-down approach to handle multi-person pose estimation.
-- **License**: AlphaPose is licensed under the Apache 2.0 License, allowing for commercial use.
+- **License**: AlphaPose is licensed under non-commercial and research only.
 - **Key Features**: High accuracy, real-time performance, robust multi-person detection.
 
-## DensePose [GitHub](https://github.com/facebookresearch/DensePose)
-- **Description**: Developed by Facebook AI, DensePose maps all human pixels in an image to the 3D surface of the human body. It provides dense correspondences between image pixels and 3D body models.
-- **License**: DensePose is licensed under the Apache 2.0 License, enabling commercial use.
-- **Key Features**: Dense and detailed pose estimation, useful for 3D reconstruction and AR applications.
 
 These models are the state of the art in pose estimation, providing robust solutions for various applications. Every model has their own working principles. 
 
@@ -177,4 +173,3 @@ while cap.isOpened():
 cap.release()
 cv2.destroyAllWindows()
 ```
-
